@@ -11,7 +11,6 @@
                 line-height: 1.6;
             }
 
-            /* Navigation Bar */
             .navbar {
                 background: linear-gradient(135deg, #ff0000ff 0%, #bb3535ff 100%);
                 opacity: 0.72;
@@ -234,7 +233,7 @@
                 font-size: 1.3rem;
             }
 
-            /* Contact Section */
+            
             .contact-section {
                 max-width: 800px;
                 margin: 4rem auto;
@@ -296,7 +295,7 @@
                 font-size: 1rem;
             }
 
-            /* Animations */
+
             @keyframes fadeInDown {
                 from {
                     opacity: 0;
@@ -328,7 +327,7 @@
                 }
             }
 
-            /* Responsive Design */
+
             @media (max-width: 768px) {
                 .nav-links {
                     position: absolute;
@@ -376,4 +375,5 @@
                 .about-highlights {
                     grid-template-columns: 1fr;
                 }
+
             }
