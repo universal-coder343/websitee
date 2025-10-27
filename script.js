@@ -1,4 +1,4 @@
-  // Mobile Navigation Toggle
+  
         const hamburger = document.getElementById('hamburger');
         const navLinks = document.getElementById('navLinks');
 
@@ -6,14 +6,14 @@
             navLinks.classList.toggle('active');
         });
 
-        // Close menu when clicking on a link
+        
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
             });
         });
 
-        // Smooth scrolling
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -27,7 +27,7 @@
             });
         });
 
-        // Registration handler
+        
         function handleRegistration(e) {
             e.preventDefault();
             const registrationURL = 'https://docs.google.com/forms/d/e/1FAIpQLScBvbB9OTOTlRYmbSBKM3CUqs9EjDCPhVk2M2vTQX4LLqVlfA/viewform?usp=publish-editor';
@@ -37,4 +37,5 @@
             
             // Alternatively, you can show an alert
             alert('पंजीकरण फॉर्म शीघ्र ही उपलब्ध होगा। कृपया hindisamiti@mitsgwalior.ac.in पर संपर्क करें।');
+
         }
